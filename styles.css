@@ -1,0 +1,157 @@
+/* Simple clean styles for HepMac Lawyers */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background: #f8f8f8;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header */
+header {
+  background: #1a2a4a;
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+.tagline {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+/* Navigation */
+nav {
+  background: #243b66;
+  padding: 12px 0;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  padding: 50px 0;
+}
+
+section:nth-child(even) {
+  background: #fff;
+}
+
+h2 {
+  color: #1a2a4a;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+/* Hero */
+.hero {
+  background: #eef2f7;
+  text-align: center;
+}
+
+.hero p {
+  max-width: 700px;
+  margin: 0 auto 20px;
+}
+
+.button {
+  display: inline-block;
+  background: #1a2a4a;
+  color: #fff;
+  padding: 12px 28px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background: #243b66;
+}
+
+/* Services grid */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.service {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.service h3 {
+  color: #1a2a4a;
+  margin-bottom: 10px;
+}
+
+/* Contact */
+.contact-details {
+  margin: 25px 0;
+}
+
+.contact-details p {
+  margin-bottom: 18px;
+}
+
+.contact-details a {
+  color: #1a2a4a;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  background: #1a2a4a;
+  color: #fff;
+  text-align: center;
+  padding: 25px 0;
+  font-size: 0.9rem;
+}
+
+.disclaimer {
+  margin-top: 8px;
+  font-size: 0.8rem;
+  opacity: 0.85;
+}
+
+/* Simple mobile adjustments */
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 8px 0;
+  }
+
+  header h1 {
+    font-size: 1.6rem;
+  }
+}
